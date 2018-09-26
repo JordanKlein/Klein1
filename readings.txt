@@ -1,0 +1,19 @@
+What I learned from the reading for HW1: (Chunks of this are copied and pasted into this file because I didn't know how to put it into my own words!)
+
+Part 1: Section 1.2
+1) The framebuffer is what is responsible for determining the detail in an image. Before this I didn't actually know what was responsible for doing this!
+
+2) I also learned just how powerful the GPU is. The GPU is so advanced now a days that is at least as complex as the CPU itself and is essentially a mini supercomputer!
+
+Part 2: Section 1.7
+3) I learned that the display processor was primarily designed in order to relieve the general-purpose computer from the task of refreshing the display continuously!
+
+4) The pipeline works as follows: vertices -> Vertex Processor -> Clipper and Primitive Assembler -> Rasterizer -> Fragment Processor -> Pixels
+
+5) The job of the vertex processor is to carry out coordinate transformations. This also includes computing the color for each vertex and changing any other attributes of the vertex.
+
+6) The job of the clipper and primitive assembly is to assemble sets of vertices into primitives. Examples include both line segments and polygons. This stage outputs a set of primitives whose projections can appear in the image.
+
+7) The job of the rasterizer is to output a set of potential pixels that contains information about color and location for each primitive.
+
+8) Lastly, the job of the fragment processor is to, using the output from the rasterizer, update the pixels in the framebuffer.
